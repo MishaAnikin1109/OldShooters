@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: center
+}
+.logo {
+    font-family: 'Rubik';
+    font-size: 90px;
+}
+.red {
+    color: red;
+}
+.short-title {
+    text-align: center;
+    font-family: 'Wavefont';
+    font-size: 60px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.short-text {
+    text-align: center;
+    font-size: 16px;
+}
+.short-games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
