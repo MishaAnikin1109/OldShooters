@@ -1,140 +1,473 @@
-.body {
-    text-align: center;
-    font-size: 20px;
-    display: flex;
+body {
+    margin: 0;
+    background-color: thistle;
 }
-.header {
+.flex {
     display: flex;
-    justify-content: center
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .logo {
     font-family: 'Rubik';
     font-size: 90px;
-}
-.red {
-    color: red;
-}
-.blue {
-    color: blue;
-}
-.green {
-    color: green;
-}
-.orange {
-    color: orange;
-}
-.cursive {
-    font-style: italic;
-}
-.bold {
-    font-weight: 700;
-}
-.margin {
-    margin-left: 30px;
-}
-.link {
-    color: darkturquoise;
-    margin-top: 40px;
-    margin-left: 30px;
-}
-.underline {
-    text-decoration: underline;
+    text-align: center;
+    margin-top: 150px;
 }
 .title {
     font-family: 'Quicksand';
     font-size: 60px;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 170px;
 }
-.text {
+.red {
+    color: red;
+}
+.short-text {
+    text-align: center;
     font-size: 20px;
-    text-align: center;
-}
-.short-games {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.short-img {
-    width: 440px;
-    margin-top: 20px;
-}
-.short {
-    width: 1500px;
-    margin-left: 50px;
-    text-align: center;
 }
 .short-card {
-    font-family: 'Roboto';
-    font-size: 20px;
+    width: 400px;
 }
-.shooter {
-    font-size: 20px;
-    font-family: 'Roboto';
-    margin-top: 80px;
+.short-wide-card {
+    width: 450px;
 }
-.wiki-right {
-    display: flex;
-}
-.wiki-part {
-    width: 700px;
-    margin-top: 60px;
-}
-.wiki-img {
-    width: 700px;
-}
-.height2 {
-    height: 750px;
-}
-.game-name {
-    text-align: center;
-    padding-left: 200px;
-    font-size: 31px;
-}
-.game-name2 {
-    text-align: center;
-    font-size: 31px;
-}
-.flex {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.short-img {
+    width: 400px;
 }
 .img {
-    width: 500px;
-    margin-left: 20px;
-    margin-right: 20px;
+    height: 250px;
 }
-.img-height {
-    height: 450px;
+.wide-img {
+    width: 450px;
 }
-.img2 {
-    width: 375px;
+.wide-img2 {
+    width: 350px;
 }
-.img3 {
-    width: 300px;
+.medium-img {
+    width: 280px;
 }
-.low-boss {
-    height: 400px;
+.medium-height-img {
+    height: 220px;
 }
-.margin-right {
-    margin-right: 200px;
+.shooter-blue {
+    background-color: lightskyblue;
+    margin-top: 150px;
 }
-.margin-left {
-    margin-left: 200px;
+.shooter-green {
+    background-color: greenyellow;
+    margin-top: 150px;
 }
-.center {
-    display: flex;
-    justify-content: center;
+.shooter-red {
+    background-color: maroon;
+    margin-top: 150px;
 }
-.norm-h {
-    height: 300px;
+/* .img2 {
+    padding: 2px;
+    border: 1px dotted blue;
+} */
+.text-blue {
+    color: blue;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: start;
 }
-.img-w {
-    width: 375px;
+.text-blue1 {
+    color: blue;
+    font-family: 'Roboto';
+    font-size: 20px;
     text-align: center;
 }
+.no-underline-blue {
+    text-decoration: none;
+    color: blue;
+}
+.wiki-part-blue {
+    width: 630px;
+    border: 5px solid blue;
+    margin-top: 75px;
+}
+.wiki-part-height-blue {
+    width: 630px;
+    height: 750px;
+    border: 5px solid blue;
+    margin-top: 100px;
+}
+.logo-text-blue {
+    font-family: 'Roboto';
+    color: blue;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    border: 1px solid blue;
+}
+.game-title-blue {
+    font-family: 'Roboto';
+    color: blue;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.img-blue {
+    width: 350px;
+    border: 5px solid blue;
+}
+.wide-img-blue {
+    width: 420px;
+    border: 5px solid blue;
+    margin-bottom: 30px;
+}
+.height-img-blue {
+    height: 400px;
+    width: 380px;
+    border: 5px solid blue;
+}
+.wpn-blue {
+    border: 5px dotted blue;
+}
+.wide-wpn-blue {
+    border: 5px dotted blue;
+    width: 350px;
+}
+.enemy-blue {
+    border: 5px dashed blue;
+}
+.boss-blue {
+    border: 5px double blue;
+}
+.text-blue-underline {
+    color: blue;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    border: 1px solid blue;
+}
+.boss-text-blue {
+    color: blue;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    border: 1px solid blue;
+    font-weight: 700;
+}
+.text-green {
+    color: green;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: start;
+}
+.text-green1 {
+    color: green;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+}
+.no-underline-green {
+    text-decoration: none;
+    color: green;
+}
+.wiki-part-green {
+    width: 630px;
+    border: 5px solid green;
+    margin-top: 75px;
+}
+.wiki-part-height-green {
+    width: 600px;
+    height: 600px;
+    border: 5px solid green;
+    margin-top: 75px;
+}
+.wiki-part-green-big {
+    width: 640px;
+    height: 800px;
+    border: 5px solid green;
+    margin-top: 100px;
+}
+.logo-text-green {
+    font-family: 'Roboto';
+    color: green;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    border: 1px solid green;
+}
+.game-title-green {
+    font-family: 'Roboto';
+    color: green;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.img-green {
+    width: 420px;
+    border: 5px solid green;
+}
+.wide-img-green {
+    width: 420px;
+    border: 5px solid green;
+    margin-bottom: 30px;
+}
+.height-img-green {
+    height: 485px;
+    width: 500px;
+    border: 5px solid green;
+}
+.wpn-green {
+    border: 5px dotted green;
+}
+.wide-wpn-green {
+    border: 5px dotted green;
+    width: 500px;
+}
+.enemy-green {
+    border: 5px dashed green;
+    height: auto;
+}
+.boss-green {
+    border: 5px double green;
+}
+.text-green-underline {
+    color: green;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    border: 1px solid green;
+}
+.boss-text-green {
+    color: green;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    border: 1px solid green;
+    font-weight: 700;
+}
+.text-red {
+    color: red;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: start;
+}
+.text-red1 {
+    color: red;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+}
+.no-underline-red {
+    text-decoration: none;
+    color: red;
+}
+.wiki-part-red {
+    width: 630px;
+    border: 5px solid red;
+    margin-top: 75px;
+}
+.wiki-part-height-red {
+    width: 750px;
+    height: 750px;
+    border: 5px solid red;
+    margin-top: 100px;
+}
+.logo-text-red {
+    font-family: 'Roboto';
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    border: 1px solid red;
+}
+.game-title-red {
+    font-family: 'Roboto';
+    color: red;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.img-red {
+    width: 380px;
+    border: 5px solid red;
+}
+.wide-img-red {
+    width: 420px;
+    border: 5px solid red;
+    margin-bottom: 30px;
+}
+.height-img-red {
+    height: 420px;
+    width: 380px;
+    border: 5px solid red;
+}
+.wpn-red {
+    border: 5px dotted red;
+}
+.wide-wpn-red {
+    border: 5px dotted red;
+    width: 500px;
+}
+.enemy-red {
+    border: 5px dashed red;
+}
+.boss-red {
+    border: 5px double red;
+}
+.text-red-underline {
+    color: red;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    border: 1px solid red;
+}
+.boss-text-red {
+    color: red;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    border: 1px solid red;
+    font-weight: 700;
+}
+.text-orange {
+    color: orange;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: start;
+}
+.text-orange1 {
+    color: orange;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+}
+.no-underline-orange {
+    text-decoration: none;
+    color: orange;
+}
+.wiki-part-orange {
+    width: 630px;
+    border: 5px solid orange;
+    margin-top: 75px;
+}
+.wiki-part-height-orange {
+    width: 630px;
+    height: 750px;
+    border: 5px solid orange;
+    margin-top: 100px;
+}
+.logo-text-orange {
+    font-family: 'Roboto';
+    color: orange;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    border: 1px solid orange;
+}
+.game-title-orange {
+    font-family: 'Roboto';
+    color: orange;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.img-orange {
+    width: 350px;
+    border: 5px solid orange;
+}
+.wide-img-orange {
+    width: 420px;
+    border: 5px solid orange;
+    margin-bottom: 30px;
+}
+.height-img-orange {
+    height: 400px;
+    width: 380px;
+    border: 5px solid orange;
+}
+.wpn-orange {
+    border: 5px dotted orange;
+}
+.wide-wpn-orange {
+    border: 5px dotted orange;
+    width: 350px;
+}
+.enemy-orange {
+    border: 5px dashed orange;
+}
+.boss-orange {
+    border: 5px double orange;
+}
+.text-orange-underline {
+    color: orange;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    border: 1px solid orange;
+}
+.boss-text-orange {
+    color: orange;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    border: 1px solid orange;
+    font-weight: 700;
+}
+.shooter {
+    margin: 30px;
+}
+.wiki-img {
+    width: 630px;
+}
+.wiki-img-height {
+    height: 650px;
+    margin-left: 65px;
+}
+.link {
+    color: royalblue;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.boss-img {
+    width: 370px;
+}
+.boss-img2 {
+    width: 370px;
+    margin-top: 50px;
+}
+.wide-boss-img {
+    width: 475px;
+    margin-top: 50px;
+}
+.height-boss-img {
+    height: 400px;
+}
+.small-img {
+    width: 150px;
+    margin-top: 100px;
+}
+.small-img2 {
+    width: 200px;
+    margin-top: 100px;
+}
+.enemy-img-height {
+    height: 300px;
+}
+.margin-left {
+    margin-left: 25px;
+}
+.margin-left2 {
+    margin-left: 10px;
+}
 .margin-top {
-    margin-top: 60px;
+    margin-top: 50px;
 }
