@@ -122,7 +122,7 @@ body {
     border: 5px solid blue;
 }
 .wide-img-blue {
-    width: 360px;
+    width: 400px;
     border: 5px solid blue;
     margin-bottom: 30px;
 }
@@ -214,7 +214,7 @@ body {
     border: 5px solid green;
 }
 .wide-img-green {
-    width: 360px;
+    width: 400px;
     border: 5px solid green;
     margin-bottom: 30px;
 }
@@ -306,7 +306,7 @@ body {
     border: 5px solid red;
 }
 .wide-img-red {
-    width: 360px;
+    width: 400px;
     border: 5px solid red;
     margin-bottom: 30px;
 }
@@ -393,12 +393,12 @@ body {
     border: 5px solid orange;
 }
 .wide-img-orange {
-    width: 500px;
+    width: 400px;
     border: 5px solid orange;
     margin-bottom: 30px;
 }
 .height-img-orange {
-    height: 360px;
+    height: 400px;
     width: 380px;
     border: 5px solid orange;
 }
