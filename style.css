@@ -1,4 +1,5 @@
 body {
+    width: 1350px;
     margin: 0;
     background-color: thistle;
 }
@@ -43,7 +44,7 @@ body {
     width: 450px;
 }
 .wide-img2 {
-    width: 420px;
+    width: 390px;
 }
 .wide-img3 {
     width: 350px;
@@ -55,7 +56,7 @@ body {
     width: 275px;
 }
 .medium-height-img {
-    height: 250px;
+    height: 240px;
 }
 .shooter-blue {
     background-color: lightskyblue;
