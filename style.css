@@ -48,6 +48,9 @@ body {
 .wide-img3 {
     width: 375px;
 }
+.wide-img4 {
+    width: 600px;
+}
 .medium-img {
     width: 325px;
 }
@@ -544,17 +547,17 @@ body {
     padding-top: 30px;
 }
 .boss-img {
-    width: 400px;
+    width: 375px;
 }
 .boss-img2 {
-    width: 370px;
+    width: 375px;
     margin-top: 75px;
 }
 .boss-img3 {
     width: 350px;
 }
 .wide-boss-img {
-    width: 520px;
+    width: 450px;
 }
 .height-boss-img {
     height: 450px;
