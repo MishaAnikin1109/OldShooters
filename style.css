@@ -534,7 +534,6 @@ body {
 }
 .wiki-img-height {
     height: 650px;
-    margin-left: 65px;
 }
 .link {
     font-family: 'Roboto';
@@ -588,6 +587,18 @@ body {
 }
 .margin-left3 {
     margin-left: 50px;
+}
+.margin-left4 {
+    margin-left: 70px;
+}
+.margin-left5 {
+    margin-left: 80px;
+}
+.margin-left6 {
+    margin-left: 100px;
+}
+.margin-left7 {
+    margin-left: 40px;
 }
 .margin-top {
     margin-top: 40px;
