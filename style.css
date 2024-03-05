@@ -577,6 +577,9 @@ body {
 .small-img2 {
     width: 245px;
 }
+.small-img-height {
+    height: 120px;
+}
 .enemy-img-height {
     height: 325px;
 }
@@ -618,4 +621,7 @@ body {
 }
 .margin-top6 {
     margin-top: 120px;
+}
+.margin-top7 {
+    margin-top: 230px;
 }
